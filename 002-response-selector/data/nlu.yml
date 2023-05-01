@@ -1,0 +1,72 @@
+version: "3.1"
+
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: chitchat/greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: chitchat/goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: chitchat/ask_name
+  examples: |
+    - What is your name?
+    - May I know your name?
+    - What do people call you?
+    - Do you have a name for yourself?
+
+- intent: chitchat/ask_weather
+  examples: |
+    - What's the weather like today?
+    - Does it look sunny outside today?
+    - Oh, do you mind checking the weather for me please?
+    - I like sunny days in Berlin.
+    - Is it snowy where you are?
+    - Is it rainy where you are?
+
+- intent: chitchat/ask_whats_new
+  examples: |
+    - What's new?
+    - What's new with you?
+    - Any news?
+    - What's happening?
+    - Any new stories to tell me?
+    - Anything new in your life?
+
+- intent: chitchat/how_was_your_weekend
+  examples: |
+    - How was your weekend?
+    - Did you do anything interesting this past weekend?
+    - Did you have any plans this weekend?
+    - I hope you had a good weekend.
+    - I hope you had a relaxing weekend.
+

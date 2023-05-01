@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - bot_challenge
+  - chitchat
+
+responses:
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_chitchat/greet:
+  - text: "Howdy!"
+  - text: "Hola amige!"
+
+  utter_chitchat/goodbye:
+  - text: "Bye"
+  - text: "buh-bye"
+  - text: "Later!"
+
+  utter_chitchat/ask_name:
+  - image: "https://i.imgur.com/zTvA58i.jpeg"
+    text: Hello, my name is Retrieval Bot.
+  - text: I am called Retrieval Bot!
+  - text: My name is Fred.
+  - text: No hablo ingles señor.
+
+  utter_chitchat/ask_weather:
+  - text: Oh, it does look sunny right now in Berlin.
+    image: "https://i.imgur.com/vwv7aHN.png"
+  - text: I am not sure of the whole week but I can see the sun is out today.
+  - text: It's a little blustery here.
+  - text: It's a little windy here.
+  - text: It's raining cats and dogs!
+
+  utter_chitchat/ask_whats_new:
+  - text: Not much, how about you?
+    image: https://i.imgur.com/WbF69aD.gif
+  - text: Not much, how about you?
+  - text: I just ate lunch.
+  - text: I went to the movies last night.
+  - text: I just won the lottery!
+
+  utter_chitchat/how_was_your_weekend:
+  - text: I had a great weekend!
+  - text: I had a relaxing weekend.
+  - text: I had a very busy weekend.
+  - text: I had some good downtime this weekend.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
