@@ -1,0 +1,2 @@
+rasa~=3.4
+websockets~=10.4
